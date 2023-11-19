@@ -19,9 +19,9 @@ import {
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { LOGOUT } from '../../Redux/notes/note.actions';
+import { LOGOUT } from '../../Redux/user/user.types';
 
-export default function Navbar1() {
+ function Navbar1() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const dispatch = useDispatch()
@@ -94,3 +94,4 @@ export default function Navbar1() {
     </>
   );
 }
+export { Navbar1 as default };

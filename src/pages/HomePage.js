@@ -1,11 +1,11 @@
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
-import { Navbar } from "./components/Homepage/Navbar";
-import note from "../assets/note.png";
+import { Navbar } from "../components/HomePage/Navbar1";
+// import note from "../assets/note.png";
 
 export default function Homepage() {
   return (
     <Box padding={8}>
-      <Image position={"absolute"} right={0} w={500} src={note} />
+      {/* <Image position={"absolute"} right={0} w={500} src={note} /> */}
       <Heading mt={16} textAlign={"start"} size={"4xl"}>
         Note App
       </Heading>

@@ -15,7 +15,7 @@ import {
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { getUser } from "../Redux/user/user.reducer";
+import  getUser from "../Redux/user/user.actions";
 
 
 export default function LoginPage(){

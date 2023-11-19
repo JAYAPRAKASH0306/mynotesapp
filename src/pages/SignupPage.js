@@ -17,7 +17,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { BASE_URL } from "../constants/config";
-import { getUser } from "../Redux/users/user.actions";
+import { getUser } from "../Redux/user/user.actions";
 
 export default function SignupPage(){
     const nav = useNavigate()

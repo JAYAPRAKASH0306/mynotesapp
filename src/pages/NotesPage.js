@@ -1,7 +1,6 @@
 import { Box, Button, Grid, IconButton, Input, Textarea, useDisclosure } from "@chakra-ui/react";
 import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-// import NoteCard from "../components/Notespage/NoteCard/NoteCard";
 import NoteCard from "../components/NotesPage/NotesCard/NotesCard";
 import { createNotes, getNotes } from "../Redux/notes/note.actions";
 import { BsPlusLg } from "react-icons/bs";
