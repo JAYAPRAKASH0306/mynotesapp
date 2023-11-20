@@ -11,7 +11,7 @@ import {
     VStack,
   } from "@chakra-ui/react";
   import "./style.css";
-  // import notebg from "../../../assets/note_bg.png";
+  import notebg from "../../../assets/notes-bg.jpg";
   import { useDispatch } from "react-redux";
   import { deleteNotes, updateNotes } from "../../../Redux/notes/note.actions";
   import {
@@ -27,7 +27,7 @@ import {
   
   export default function NoteCard({ title, body, user, _id }) {
     const dispatch = useDispatch();
-    const [notes, setNotes] = useState([]);
+    // const [notes, setNotes] = useState([]);
     const { isOpen, onOpen, onClose } = useDisclosure();
   
     const initialRef = useRef(null);
@@ -43,8 +43,8 @@ import {
     }
   
     return (
-      <Card >
-        {/* backgroundImage={`url(${notebg})`} */}
+      <Card backgroundImage={`url(${notebg})`}>
+      
         <CardBody>
           <VStack>
             <Heading>{title}</Heading>

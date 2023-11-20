@@ -61,7 +61,7 @@ export default function NotesPage() {
           w={"80px"}
           h={"80px"}
           borderRadius={50}
-          bg={"yellowgreen"}
+          bg={"#89d5d6"}
           bottom={0}
           right={0}
           onClick={onOpen}
