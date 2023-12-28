@@ -72,8 +72,14 @@ export default function LoginPage(){
                 direction={{ base: 'column', sm: 'row' }}
                 align={'start'}
                 justify={'space-between'}>
-                <Checkbox>Remember me</Checkbox>
-                <Link color={'blue.400'}>Forgot password?</Link>
+                <Checkbox>Remember me</Checkbox><br/>
+                <div><br/>
+                <br/>
+                <p>DEFAULT LOGIN CREDENTIALS</p><br/>
+               <p>MAILID:NEWUSER@GMAIL.COM</p><br/>
+               <p>PASSWORD:NEWUSER@123</p><br/>
+                </div><br/>
+                {/* <Link color={'blue.400'}>Forgot password?</Link> */}
               </Stack>
               <Button
               onClick={handleLogin}
